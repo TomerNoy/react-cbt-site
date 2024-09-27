@@ -24,6 +24,15 @@ code {
     monospace;
 }
 
+main {
+  padding-top: 120px;
+}
+
+
+.page-content {
+  margin-top: 400px;
+}
+
 
 /* Tablet Styles */
 @media (max-width: 1024px) {
