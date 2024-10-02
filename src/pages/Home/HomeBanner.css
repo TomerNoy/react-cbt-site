@@ -1,0 +1,65 @@
+@import url("../../App.css");
+
+.home-banner {
+  background-image: url("https://images.unsplash.com/photo-1495302676229-d8229d284792?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  filter: contrast(0.8);
+}
+
+.home-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  z-index: -1;
+}
+
+.banner-text-container {
+  height: 400px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 60px;
+}
+
+.home-banner h1 {
+  color: var(--light-gray);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+#top-banner-title {
+  align-self: flex-start;
+}
+
+#bottom-banner-title {
+  align-self: flex-end;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .banner-text-container {
+    padding: 0 50px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .banner-text-container {
+    padding: 0 40px;
+  }
+}

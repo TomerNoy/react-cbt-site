@@ -1,0 +1,21 @@
+.home-treatments {
+  display: flex;
+  flex-direction: column;
+}
+
+.treatment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .treatment-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .treatment-column p {
+    margin: 0 0 20px 0;
+  }
+}

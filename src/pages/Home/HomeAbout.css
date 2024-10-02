@@ -1,0 +1,19 @@
+.home-about img {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.about-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-row-inner {
+  display: flex;
+  flex-direction: column;
+}

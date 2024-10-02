@@ -1,0 +1,49 @@
+.contact-list {
+  list-style-type: none;
+  text-align: center;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.contact-item {
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-title:hover {
+  text-decoration: underline;
+}
+
+.list-tile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 80px;
+}
+
+.contact-title {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.contact-icon {
+  font-size: 30px;
+  width: 60px;
+}
+
+.contact-trailing {
+  width: 80px;
+  text-align: right;
+}
+
+.whatsapp-icon {
+  color: green;
+  font-size: 40px;
+}
+
+.email-icon {
+  color: blue;
+}

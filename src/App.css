@@ -1,50 +1,128 @@
+:root {
+  /* --davys-gray: #555555ff;
+  --umber: #766457ff;
+  --lion: #b99d85ff;
+  --dun: #d1c3b7ff;
+  --platinum: #e8e8e8ff;
+  --white: #ffffffff; */
+
+  --green: #1b6d68;
+  --gray: #414141;
+  --brown: #b99c84;
+  --light-blue: #f4f9fe;
+  --light-gray: #f7f7f7;
+  /* --medium-gray: #B4B4B4; */
+
+  /* --caribbean-current: #006d77ff;
+--tiffany-blue: #83c5beff;
+--alice-blue: #edf6f9ff;
+--pale-dogwood: #ffddd2ff;
+--atomic-tangerine: #e29578ff; */
+
+  /* --color-light-blue: #a4e3f7;
+  --color-dark-blue: #18587f;
+  --color-red: #eb6460;
+  --color-light-peach: #f9d7b4;
+  --color-peach: #f4ac71;
+  --color-cream: #fdf5ec; */
+}
+
 * {
-  /* outline: 1px solid rgba(0, 0, 255, 0.3); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid; */
 }
 
 body {
   direction: rtl;
   text-align: right;
-  background-color: #fff;
-  margin: 0;
-  color: #333;
-  font-family: 'Heebo', 'Alef', Arial, sans-serif;
-  font-size: 18px;
+  background-color: white;
+  font-family: "Heebo", "Alef", Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.5;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 main {
-  padding-top: 120px;
+  padding: 120px 0 120px 0;
+  margin: 0;
 }
 
+.page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 60px;
+}
+
+.page p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: var(--gray);
+  text-align: justify;
+}
+
+.sources {
+  direction: ltr;
+  text-align: left;
+}
+
+.sources p {
+  font-size: 16px;
+}
+
+.sources h2 {
+  direction: rtl;
+  text-align: right;
+}
+
+.page h1,
+.page h2,
+.page h3 {
+  margin: 20px 0;
+  color: var(--green);
+}
+
+.page h1 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
+}
+
+.page h2 {
+  font-size: 1.2em;
+}
+
+.page h3 {
+  font-size: 1em;
+}
 
 .page-content {
   margin-top: 400px;
 }
 
-
 /* Tablet Styles */
 @media (max-width: 1024px) {
   body {
-    font-size: 17px;
+    font-size: 19px;
+  }
+  .page {
+    margin: 30px auto;
+    padding: 50px;
   }
 }
-
 
 /* Mobile Styles */
 @media (max-width: 768px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .page {
+    margin: 20px auto;
+    padding: 40px;
   }
 }
