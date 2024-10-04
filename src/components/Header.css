@@ -1,13 +1,14 @@
 @import url("../App.css");
 
 .header-wrapper {
-  background-color: var(--white-smoke);
+  background-color: var(--light-gray);
   padding: 0 40px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid gainsboro;
+  font-size: 18px;
 }
 
 .header {
@@ -39,7 +40,6 @@ nav {
 
 .hamburger {
   display: none;
-  font-size: 1.5rem;
   cursor: pointer;
   z-index: 1100;
 }

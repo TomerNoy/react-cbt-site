@@ -1,30 +1,9 @@
 :root {
-  /* --davys-gray: #555555ff;
-  --umber: #766457ff;
-  --lion: #b99d85ff;
-  --dun: #d1c3b7ff;
-  --platinum: #e8e8e8ff;
-  --white: #ffffffff; */
-
   --green: #1b6d68;
   --gray: #414141;
   --brown: #b99c84;
   --light-blue: #f4f9fe;
   --light-gray: #f7f7f7;
-  /* --medium-gray: #B4B4B4; */
-
-  /* --caribbean-current: #006d77ff;
---tiffany-blue: #83c5beff;
---alice-blue: #edf6f9ff;
---pale-dogwood: #ffddd2ff;
---atomic-tangerine: #e29578ff; */
-
-  /* --color-light-blue: #a4e3f7;
-  --color-dark-blue: #18587f;
-  --color-red: #eb6460;
-  --color-light-peach: #f9d7b4;
-  --color-peach: #f4ac71;
-  --color-cream: #fdf5ec; */
 }
 
 * {
@@ -34,12 +13,28 @@
   /* border: 1px solid; */
 }
 
+/* fonts */
+* h1 {
+  font-size: 40px;
+}
+
+* h2 {
+  font-size: 30px;
+}
+
+* h3 {
+  font-size: 25px;
+}
+
+* p {
+  font-size: 20px;
+}
+
 body {
   direction: rtl;
   text-align: right;
   background-color: white;
   font-family: "Heebo", "Alef", Arial, sans-serif;
-  font-size: 20px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -85,19 +80,9 @@ main {
 }
 
 .page h1 {
-  font-size: 1.6em;
   margin-bottom: 0.5em;
   text-align: center;
-  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
   filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
-}
-
-.page h2 {
-  font-size: 1.2em;
-}
-
-.page h3 {
-  font-size: 1em;
 }
 
 .page-content {
@@ -106,19 +91,44 @@ main {
 
 /* Tablet Styles */
 @media (max-width: 1024px) {
-  body {
-    font-size: 19px;
-  }
   .page {
     margin: 30px auto;
     padding: 50px;
+  }
+
+  * h1 {
+    font-size: 35px;
+  }
+
+  * h2 {
+    font-size: 28px;
+  }
+
+  * h3 {
+    font-size: 23px;
+  }
+
+  * p {
+    font-size: 18px;
   }
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
-  body {
-    font-size: 18px;
+  * h1 {
+    font-size: 33px;
+  }
+
+  * h2 {
+    font-size: 26px;
+  }
+
+  * h3 {
+    font-size: 21px;
+  }
+
+  * p {
+    font-size: 16px;
   }
 
   .page {

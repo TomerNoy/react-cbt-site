@@ -1,6 +1,8 @@
+@import url("../App.css");
+
 .footer-wrapper {
   background-color: #f0f0f0;
-  padding: 1rem 40px;
+  padding: 0 40px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -22,27 +24,21 @@
   align-items: center;
   gap: 0.7rem;
   transition: background-color 0.3s;
-}
-
-.whatsapp-icon {
-  font-size: 1.5rem;
+  font-size: 18px;
+  color: var(--gray);
 }
 
 .copyright {
   margin: 0;
-  font-size: 1rem;
-  color: #333;
+  color: var(--gray);
   direction: ltr;
+  font-size: 16px;
 }
-
+.whatsapp-icon {
+  font-size: 35px;
+}
 @media (max-width: 1024px) {
-  .footer-wrapper {
-    padding: 1rem 30px;
-  }
 }
 
 @media (max-width: 768px) {
-  .footer-wrapper {
-    padding: 1rem 20px;
-  }
 }
