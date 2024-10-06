@@ -46,6 +46,7 @@
 
 #top-banner-title {
   align-self: flex-start;
+  text-align: right;
 }
 
 #bottom-banner-title {
@@ -55,13 +56,13 @@
 /* Tablet Styles */
 @media (max-width: 1024px) {
   .banner-text-container {
-    padding: 0 50px;
+    padding: 0 40px;
   }
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
   .banner-text-container {
-    padding: 0 40px;
+    padding: 0 30px;
   }
 }

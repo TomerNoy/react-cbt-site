@@ -19,6 +19,8 @@ const Header = () => {
             <Link to="/" onClick={toggleMenu}>בית</Link>
             <Link to="/about" onClick={toggleMenu}>אודות</Link>
             <Link to="/cbt" onClick={toggleMenu}>CBT</Link>
+            
+
             <div className="dropdown">
                 <Link to="/articles" onClick={toggleMenu}>מאמרים</Link>
                 <div className="dropdown-content">
@@ -29,6 +31,7 @@ const Header = () => {
                     <Link to="/articles/depression" onClick={toggleMenu}>דיכאון</Link>
                 </div>
             </div>
+            
             <Link to="/contact" onClick={toggleMenu}>צור קשר</Link>
         </nav>
         <div className="hamburger" onClick={toggleMenu}>
