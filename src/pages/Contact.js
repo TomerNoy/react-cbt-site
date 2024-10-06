@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Contact = () => {
   return (
-    <div className="page">
+    <div>
       <h1>ניתן ליצור קשר בדרכים הבאות</h1>
 
       <ul className="contact-list">

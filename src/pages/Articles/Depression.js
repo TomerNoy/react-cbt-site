@@ -2,7 +2,7 @@ import React from "react";
 
 const Depression = () => {
   return (
-    <div className="page">
+    <div>
       <h1>דיכאון</h1>
       <p>
         "אני לא מספיק טוב. אף אחד לא באמת מבין אותי. למה אני בכלל מתאמץ?" מחשבות

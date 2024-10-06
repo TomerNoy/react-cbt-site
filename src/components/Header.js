@@ -14,9 +14,7 @@ const Header = () => {
   return (
     // prettier-ignore
     <header className="header">
-        <div className="logo">
-            <img src={logo} alt="Logo" />
-        </div>
+        <img src={logo} alt="Logo" className="logo"/>
         <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
             <Link to="/" onClick={toggleMenu}>בית</Link>
             <Link to="/about" onClick={toggleMenu}>אודות</Link>

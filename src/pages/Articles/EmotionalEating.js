@@ -2,8 +2,9 @@ import React from "react";
 
 const EmotionalEating = () => {
   return (
-    <div className="page">
+    <div>
       <h1>אכילה רגשית </h1>
+
       <p>
         האם אי פעם מצאתם את עצמכם פונים למקרר אחרי יום מתסכל בעבודה? האם אתם
         אוכלים חטיף מתוק כשאתם מרגישים עצב או מתח? אם עניתם בחיוב על אחת מהשאלות
@@ -43,7 +44,7 @@ const EmotionalEating = () => {
         CBT שיוכל לסייע לכם להתמודד עם הרגשות שלכם בדרכים חיוביות ובריאות יותר.
       </p>
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           Brown, A., Johnson, L., & Smith, K. (2020). Cognitive Behavioral
           Therapy for Emotional Eating: A Randomized Controlled Trial. Journal

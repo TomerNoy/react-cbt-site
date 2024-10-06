@@ -2,7 +2,7 @@ import React from "react";
 
 const Anxiety = () => {
   return (
-    <div className="page">
+    <div>
       <h1>חרדה</h1>
 
       <p>

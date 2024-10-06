@@ -8,10 +8,10 @@
   -o-background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  height: 400px;
   width: 100%;
   display: flex;
   filter: contrast(0.8);
+  border-radius: 5px;
 }
 
 .home-banner::before {
@@ -23,10 +23,11 @@
   bottom: 0;
   background: inherit;
   z-index: -1;
+  border-radius: 5px;
 }
 
 .banner-text-container {
-  height: 400px;
+  height: clamp(250px, 37vw, 400px);
   margin: 0 auto;
   width: 100%;
   max-width: 1400px;
@@ -40,6 +41,7 @@
   color: var(--light-gray);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  padding: 0;
 }
 
 #top-banner-title {

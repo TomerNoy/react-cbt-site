@@ -2,7 +2,7 @@ import React from "react";
 
 const OCD = () => {
   return (
-    <div className="page">
+    <div>
       <h1>OCD- הפרעה אובססיבית-קומפולסיבית</h1>
       <p>
         דמיינו שאתם מתחילים את היום בתחושת דחף בלתי נשלט לבדוק שוב ושוב אם נעלתם
