@@ -53,7 +53,6 @@ nav {
 }
 
 .nav-links a:hover {
-  /* text-decoration: underline; */
   color: var(--green);
 }
 
@@ -70,16 +69,19 @@ nav {
   backdrop-filter: blur(10px);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  padding: 16px;
 }
 .dropdown-content a {
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: center;
+  padding: 10px 5px;
 }
+
 .dropdown-content a {
   white-space: nowrap;
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -112,12 +114,15 @@ nav {
     backdrop-filter: blur(10px);
   }
 
+  .nav-links {
+    width: auto;
+  }
+
   .nav-links.open {
     display: flex;
     transform: translateX(0);
-    padding: 2rem 0;
-    gap: 1rem;
-    padding: 90px 60px;
+    gap: 0.9rem;
+    padding: 70px 60px 30px 30px;
   }
 
   .hamburger {
@@ -145,10 +150,19 @@ nav {
     position: relative;
     display: contents;
     background-color: transparent;
+    backdrop-filter: inherit;
     box-shadow: none;
     font-size: smaller;
+    padding: 0;
   }
   .dropdown-content a {
     text-align: right;
+    padding: 10px 5px;
+  }
+
+  .dropdown-content a::after {
+    text-align: right;
+    content: "-";
+    margin-left: 5px;
   }
 }

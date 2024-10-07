@@ -49,7 +49,7 @@ const Cbt = () => {
       </p>
 
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           Smith, A., Johnson, L., & Brown, K. (2021). The effectiveness of
           Cognitive Behavioral Therapy in treating anxiety and depression: A

@@ -51,7 +51,7 @@ const Depression = () => {
         אל תוותרו—תמיד יש דרך להרגיש טוב יותר ולמצוא מחדש את התקווה והחיוניות.
       </p>
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           Bockting, C. L., Hollon, S. D., Jarrett, R. B., Kuyken, W., & Dobson,
           K. (2016). A lifetime approach to major depressive disorder: The

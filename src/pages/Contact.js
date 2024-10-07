@@ -41,6 +41,9 @@ const Contact = () => {
           </div>
         </li>
       </ul>
+      <div className="contact-grid">
+        
+      </div>
     </div>
   );
 };

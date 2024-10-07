@@ -82,7 +82,7 @@ const EmotionalRegulation = () => {
         מה שמוביל לתגובה רגועה ומקבלת יותר.
       </p>
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           Beck, J. S. (2011). Cognitive behavior therapy: Basics and beyond (2nd
           ed.). New York: Guilford Press.

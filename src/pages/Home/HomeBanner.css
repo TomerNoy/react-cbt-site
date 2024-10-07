@@ -1,7 +1,7 @@
 @import url("../../App.css");
 
 .home-banner {
-  background-image: url("https://images.unsplash.com/photo-1495302676229-d8229d284792?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -64,5 +64,11 @@
 @media (max-width: 768px) {
   .banner-text-container {
     padding: 0 30px;
+  }
+
+  .home-banner {
+    width: 100vw;
+    margin: -20px -20px 0 0;
+    border-radius: 0px;
   }
 }

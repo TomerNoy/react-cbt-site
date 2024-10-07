@@ -54,7 +54,7 @@ const OCD = () => {
       </p>
 
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           American Psychiatric Association. (2022). Diagnostic and Statistical
           Manual of Mental Disorders (5th ed., text rev.). American Psychiatric

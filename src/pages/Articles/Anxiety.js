@@ -63,7 +63,7 @@ const Anxiety = () => {
         פוביה, כאשר המטופלים לומדים להתמודד עם הפחד שלהם בצורה הדרגתית ומבוקרת.
       </p>
       <div className="sources">
-        <h2>מקורות</h2>
+        <h3>מקורות</h3>
         <p>
           Hofmann, S. G., Asnaani, A., Vonk, I. J., Sawyer, A. T., & Fang, A.
           (2019). The Efficacy of Cognitive Behavioral Therapy: A Review of

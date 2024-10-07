@@ -1,10 +1,11 @@
 .home-about img {
   height: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
   min-width: 300px;
   background-size: cover;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .about-row {
