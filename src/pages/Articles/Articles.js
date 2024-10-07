@@ -5,6 +5,7 @@ import ocd from "../../assets/ocd.webp";
 import depression from "../../assets/depression.webp";
 import regulation from "../../assets/regulation.webp";
 import anxiety from "../../assets/anxiety.webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Articles = () => {
   return (
@@ -21,7 +22,7 @@ const Articles = () => {
 
       <div className="articles">
         <div className="article">
-          <img src={eating} alt="eating"></img>
+          <LazyLoadImage alt="eating" src={eating} />
           <h2>אכילה רגשית</h2>
           <p>
             האם אי פעם מצאתם את עצמכם פונים למקרר אחרי יום מתסכל בעבודה? האם אתם
@@ -40,7 +41,7 @@ const Articles = () => {
           </a>
         </div>
         <div className="article">
-          <img src={regulation} alt="regulation"></img>
+          <LazyLoadImage src={regulation} alt="regulation" />
           <h2>ויסות רגשי</h2>
           <p>
             כולנו חווים רגשות חזקים שמשפיעים על האופן שבו אנחנו מתנהלים בחיי
@@ -58,7 +59,7 @@ const Articles = () => {
         </div>
 
         <div className="article">
-          <img src={anxiety} alt="anxiety"></img>
+          <LazyLoadImage src={anxiety} alt="anxiety" />
           <h2>חרדה</h2>
           <p>
             חרדה היא תחושה המלווה אותנו עוד מימי קדם, כמעין מנגנון הגנה טבעי
@@ -74,7 +75,7 @@ const Articles = () => {
           </a>
         </div>
         <div className="article">
-          <img src={ocd} alt="ocd"></img>
+          <LazyLoadImage src={ocd} alt="ocd" />
           <h2>OCD</h2>
           <p>
             דמיינו שאתם מתחילים את היום בתחושת דחף בלתי נשלט לבדוק שוב ושוב אם
@@ -92,7 +93,7 @@ const Articles = () => {
           </a>
         </div>
         <div className="article">
-          <img src={depression} alt="depression"></img>
+          <LazyLoadImage src={depression} alt="depression" />
           <h2>דיכאון</h2>
           <p>
             דיכאון הוא הפרעה נפשית המתאפיינת בתחושות ממושכות של עצב, חוסר תקווה,
