@@ -8,12 +8,6 @@ import { articlesData } from "../Articles/articlesData";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Section1 = () => {
-  const articles = [
-    { title: "Article 1", content: "This is the content for article 1." },
-    { title: "Article 2", content: "This is the content for article 2." },
-    { title: "Article 3", content: "This is the content for article 3." },
-  ];
-
   const settings = {
     dots: true,
     infinite: true,

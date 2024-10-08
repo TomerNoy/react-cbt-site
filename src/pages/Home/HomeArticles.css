@@ -24,13 +24,11 @@
 }
 
 .column {
-  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
   direction: rtl;
-  /* border-radius: 0 10px 10px 0; */
   padding: 16px;
 }
 
@@ -79,6 +77,10 @@
 }
 
 @media (max-width: 768px) {
+  .slick-slider {
+    margin: 0 5px;
+  }
+
   .article-slide {
     flex-direction: column;
   }
@@ -89,7 +91,6 @@
 
   .image-container {
     border-radius: 10px 10px 0 0;
-    background-color: rosybrown;
     display: contents;
   }
 
@@ -99,6 +100,5 @@
     height: 55vw;
     object-fit: cover;
     display: flex;
-    background-color: royalblue;
   }
 }
