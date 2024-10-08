@@ -31,7 +31,7 @@ main {
   margin: auto;
   margin-top: clamp(90px, 15vw, 120px);
   max-width: 1200px;
-  padding: 64px 60px;
+  padding: 64px 60px 100px 60px;
 }
 
 body p {

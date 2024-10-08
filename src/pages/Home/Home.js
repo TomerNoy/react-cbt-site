@@ -4,6 +4,7 @@ import "./Home.css";
 import HomeBanner from "./HomeBanner";
 import HomeAbout from "./HomeAbout";
 import HomeTreatment from "./HomeTreatment";
+import HomeArticles from "./HomeArticles";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HomeBanner />
       <HomeAbout />
       <HomeTreatment />
+      <HomeArticles />
     </div>
   );
 };
