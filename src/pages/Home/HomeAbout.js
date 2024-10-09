@@ -4,7 +4,7 @@ import inbalImage from "../../assets/inbal.jpeg";
 import "./HomeAbout.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const Section1 = () => {
+const HomeAbout = () => {
   return (
     <Element name="about-section" className="section">
       <div className="home-about">
@@ -30,4 +30,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default HomeAbout;

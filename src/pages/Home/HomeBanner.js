@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import "./HomeBanner.css";
 
-const Section1 = () => {
+const HomeBanner = () => {
   return (
     <Element name="banner-section" className="home-banner">
       <div className="banner-text-container">
@@ -13,4 +13,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default HomeBanner;

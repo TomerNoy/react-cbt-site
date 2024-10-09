@@ -5,9 +5,8 @@ import "./HomeArticles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { articlesData } from "../Articles/articlesData";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const Section1 = () => {
+const HomeArticles = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -18,6 +17,19 @@ const Section1 = () => {
     autoplaySpeed: 1500,
   };
 
+  // Preload images on page start
+  const preloadImages = () => {
+    articlesData.forEach((article) => {
+      const img = new Image();
+      img.src = article.image;
+    });
+  };
+
+  // Call preloadImages when the component mounts
+  useState(() => {
+    preloadImages();
+  }, []);
+
   return (
     <Element name="articles-section" className="home-articles">
       <h1>מאמרים</h1>
@@ -25,11 +37,11 @@ const Section1 = () => {
         {articlesData.map((article, index) => (
           <div key={index} className="article-slide">
             <div className="image-container">
-              <LazyLoadImage
+              <img
                 alt={article.title}
                 src={article.image}
-                effect="blur"
-                scrollableTarget="articles-section"
+                // effect="blur"
+                // scrollableTarget="articles-section"
                 className="image-content"
               />
             </div>
@@ -50,4 +62,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default HomeArticles;

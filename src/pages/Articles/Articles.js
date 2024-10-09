@@ -1,6 +1,5 @@
 import React from "react";
 import "./Articles.css";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import { articlesData } from "./articlesData";
 
 const Articles = () => {
@@ -19,10 +18,10 @@ const Articles = () => {
       <div className="articles">
         {articlesData.map((article) => (
           <div key={article.id} className="article">
-            <LazyLoadImage
+            <img
               alt={article.title}
               src={article.image}
-              effect="blur"
+              // effect="blur"
             />
             <h2>{article.title}</h2>
             <p>{article.description}</p>

@@ -2,7 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import "./HomeTreatment.css";
 
-const Section1 = () => {
+const HomeTreatment = () => {
   return (
     // prettier-ignore
     <Element name="treatment-section" className="section">
@@ -45,4 +45,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default HomeTreatment;
