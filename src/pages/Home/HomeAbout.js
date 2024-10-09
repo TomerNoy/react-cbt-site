@@ -1,6 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
-import inbalImage from "../../assets/inbal.jpeg";
+import inbalImage from "../../assets/inbal.avif";
+import inbalImageAlt from "../../assets/inbal.jpeg";
 import "./HomeAbout.css";
 
 const HomeAbout = () => {
@@ -9,7 +10,12 @@ const HomeAbout = () => {
       <div className="home-about">
         <h1>קצת עלי</h1>
         <div className="about-row">
-          <img src={inbalImage} alt="Inbal" />
+          <picture>
+            <source srcSet={inbalImage} type="image/avif" />
+            <source srcSet={inbalImageAlt} type="image/jpeg" />
+            <img src={inbalImage} alt="Inbal" />
+          </picture>
+
           <div className="about-row-inner">
             <p>
               נעים להכיר, אני ענבל שאול, פסיכותרפיסטית קוגניטיבית-התנהגותית.

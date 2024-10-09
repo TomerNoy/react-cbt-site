@@ -18,11 +18,11 @@ const Articles = () => {
       <div className="articles">
         {articlesData.map((article) => (
           <div key={article.id} className="article">
-            <img
-              alt={article.title}
-              src={article.image}
-              // effect="blur"
-            />
+            <picture>
+              <source srcSet={article.image} type="image/avif" />
+              <source srcSet={article.imageAlt} type="image/webp" />
+              <img alt={article.title} src={article.imageAlt} />
+            </picture>
             <h2>{article.title}</h2>
             <p>{article.description}</p>
             <a

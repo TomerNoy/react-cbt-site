@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.avif";
+import logoAlt from "../assets/logo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,12 @@ const Header = () => {
   return (
     // prettier-ignore
     <header className="header">
-        <img src={logo} alt="Logo" className="logo"/>
+      <picture>
+        <source srcSet={logo} type="image/avif"/>
+        <source srcSet={logoAlt} type="image/png"/>
+      
+      </picture>        
+      <img src={logo} alt="Logo" className="logo"/>
         <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
             <Link to="/" onClick={toggleMenu}>בית</Link>
             <Link to="/about" onClick={toggleMenu}>אודות</Link>
