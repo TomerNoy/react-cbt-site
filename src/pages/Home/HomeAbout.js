@@ -2,7 +2,6 @@ import React from "react";
 import { Element } from "react-scroll";
 import inbalImage from "../../assets/inbal.jpeg";
 import "./HomeAbout.css";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const HomeAbout = () => {
   return (
@@ -10,7 +9,7 @@ const HomeAbout = () => {
       <div className="home-about">
         <h1>קצת עלי</h1>
         <div className="about-row">
-          <LazyLoadImage src={inbalImage} alt="Inbal"/>
+          <img src={inbalImage} alt="Inbal" />
           <div className="about-row-inner">
             <p>
               נעים להכיר, אני ענבל שאול, פסיכותרפיסטית קוגניטיבית-התנהגותית.
