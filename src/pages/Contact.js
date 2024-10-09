@@ -12,7 +12,7 @@ const Contact = () => {
           <div
             className="list-tile"
             onClick={() =>
-              (window.location.href = "mailto:inbalshaul@gmail.com")
+              window.open("mailto:inbalshaul@gmail.com", "_blank")
             }
           >
             <i className="fa-solid fa-envelope contact-icon email-icon"></i>
@@ -23,7 +23,7 @@ const Contact = () => {
         <li className="contact-item">
           <div
             className="list-tile"
-            onClick={() => (window.location.href = "tel:+972587018070")}
+            onClick={() => window.open("tel:+972587018070", "_blank")}
           >
             <i className="fa-solid fa-phone contact-icon phone-icon"></i>
             <span className="contact-title">+972 58 701 8070</span>
@@ -33,7 +33,7 @@ const Contact = () => {
         <li className="contact-item">
           <div
             className="list-tile"
-            onClick={() => (window.location.href = "https://wa.me/0987654321")}
+            onClick={() => window.open("https://wa.me/0987654321", "_blank")}
           >
             <i className="fa-brands fa-whatsapp contact-icon whatsapp-icon"></i>
             <span className="contact-title">Whatsapp</span>
@@ -41,9 +41,7 @@ const Contact = () => {
           </div>
         </li>
       </ul>
-      <div className="contact-grid">
-        
-      </div>
+      <div className="contact-grid"></div>
     </div>
   );
 };

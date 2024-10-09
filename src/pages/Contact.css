@@ -53,4 +53,9 @@
   .contact-list {
     font-size: 1rem;
   }
+
+  .contact-item {
+    max-width: 300px;
+    max-height: 60px;
+  }
 }

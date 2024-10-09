@@ -60,6 +60,10 @@
   text-overflow: ellipsis;
   padding: 0 30px;
   margin: 0;
+  text-align: start;
+  line-height: 1.5;
+  padding: 0 10px;
+  margin: auto;
 }
 
 .button {
@@ -72,13 +76,13 @@
 
 @media (max-width: 1024px) {
   .slick-slider {
-    margin-bottom: 100px;
+    /* margin-bottom: 20px; */
   }
 }
 
 @media (max-width: 768px) {
   .slick-slider {
-    margin: 0 5px;
+    margin: 40px 5px;
   }
 
   .article-slide {
