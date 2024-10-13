@@ -10,7 +10,7 @@ const HomeArticles = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1500,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,

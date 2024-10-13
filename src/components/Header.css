@@ -46,6 +46,7 @@ nav {
 }
 
 .nav-links {
+  direction: rtl;
   font-size: 1.1rem;
 }
 
@@ -159,12 +160,12 @@ nav {
   }
   .dropdown-content a {
     text-align: right;
-    padding: 10px 5px;
+    padding: 10px 15px;
   }
 
   .dropdown-content a::after {
     text-align: right;
-    content: "-";
+    /* content: "-"; */
     margin-left: 5px;
   }
 }

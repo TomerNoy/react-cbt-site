@@ -23,7 +23,7 @@ const Header = () => {
       <img src={logo} alt="Logo" className="logo"/>
         <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
             <Link to="/" onClick={toggleMenu}>בית</Link>
-            <Link to="/about" onClick={toggleMenu}>אודות</Link>
+            <Link to="/about" onClick={toggleMenu}>מי אני</Link>
             <Link to="/cbt" onClick={toggleMenu}>CBT</Link>
             
 

@@ -37,7 +37,7 @@ const HomeTreatment = () => {
             <p><span role="img" aria-label="check">✔️</span> קושי בויסות רגשי</p>
             <p><span role="img" aria-label="check">✔️</span> קשיי התנהגות והסתגלות</p>
             <p><span role="img" aria-label="check">✔️</span> אילמות סלקטיבית</p>
-            <p><span role="img" aria-label="check">✔️</span> ועוד</p>
+            <p><span role="img" aria-label="check">&nbsp;</span> ועוד</p>
           </div>
         </div>
       </div>
