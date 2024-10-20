@@ -2,7 +2,7 @@ import React from "react";
 
 const EmotionalRegulation = () => {
   return (
-    <div>
+    <div className="page">
       <h1>מהו ויסות רגשי ואיך הוא משפיע על החיים שלנו?</h1>
       <p>
         כולנו חווים רגשות חזקים שמשפיעים על האופן שבו אנחנו מתנהלים בחיי

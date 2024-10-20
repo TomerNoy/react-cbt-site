@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   filter: contrast(0.8);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .home-banner::before {
@@ -23,7 +23,7 @@
   bottom: 0;
   background: inherit;
   z-index: -1;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .banner-text-container {

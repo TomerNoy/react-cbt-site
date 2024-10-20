@@ -4,7 +4,7 @@ import { articlesData } from "./articlesData";
 
 const Articles = () => {
   return (
-    <div>
+    <div className="page">
       <h1>מאמרים</h1>
       <p>
         ברוכים הבאים לאוסף המאמרים שלי, שמוקדשים לדרכי טיפול במגוון הפרעות

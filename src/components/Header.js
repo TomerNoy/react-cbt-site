@@ -40,7 +40,7 @@ const Header = () => {
             
             <Link to="/contact" onClick={toggleMenu}>צור קשר</Link>
         </nav>
-        <div className="hamburger" onClick={toggleMenu}>
+        <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
             {isOpen ? <FaTimes /> : <FaBars />}
         </div>
     </header>

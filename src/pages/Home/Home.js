@@ -8,7 +8,7 @@ import HomeArticles from "./HomeArticles";
 
 const Home = () => {
   return (
-    <div>
+    <div className="page">
       <HomeBanner />
       <HomeAbout />
       <HomeTreatment />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Cbt = () => {
   return (
-    <div>
+    <div className="page">
       <h1>טיפול קוגניטיבי-התנהגותי (CBT)</h1>
       <p>
         טיפול קוגניטיבי-התנהגותי (CBT) הוא שיטת טיפול פסיכולוגית שמתמקדת בשינוי

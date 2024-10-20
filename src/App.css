@@ -17,6 +17,13 @@ html {
   font-size: 100%;
 }
 
+.page {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: clamp(90px, 15vw, 120px);
+  padding: 64px 60px 100px 60px;
+}
+
 body {
   direction: rtl;
   text-align: right;
@@ -28,10 +35,7 @@ body {
 }
 
 main {
-  margin: auto;
-  margin-top: clamp(90px, 15vw, 120px);
-  max-width: 1200px;
-  padding: 64px 60px 100px 60px;
+  /* todo */
 }
 
 body p {
@@ -80,7 +84,7 @@ body h3 {
 
 /* Tablet Styles */
 @media (max-width: 1024px) {
-  main {
+  .page {
     padding: 20px 40px 90px 40px;
   }
   body h1 {
@@ -105,7 +109,7 @@ body h3 {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
-  main {
+  .page {
     padding: 0 20px 80px 20px;
   }
   body h1 {

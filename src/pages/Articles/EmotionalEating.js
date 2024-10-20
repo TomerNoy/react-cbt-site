@@ -2,7 +2,7 @@ import React from "react";
 
 const EmotionalEating = () => {
   return (
-    <div>
+    <div className="page">
       <h1>אכילה רגשית </h1>
 
       <p>
