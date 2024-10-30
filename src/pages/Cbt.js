@@ -83,6 +83,7 @@ const Cbt = () => {
         <iframe
           width="360"
           height="215"
+          style={{ maxWidth: "100%" }}
           src="https://www.youtube.com/embed/DA0Pbe1Lz-c"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
