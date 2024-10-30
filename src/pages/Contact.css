@@ -1,8 +1,8 @@
 .contact-page {
   background-image: url("../assets/contact.avif");
   background-size: cover;
-  background-position: 50% 50%;
-  height: 100vh;
+  background-position: center;
+  height: clamp(750px, 100vh, 100vh);
   padding-top: 64px;
 }
 
