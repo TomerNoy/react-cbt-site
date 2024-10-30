@@ -1,8 +1,8 @@
 .home-about img {
   height: auto;
   width: 100%;
-  max-width: 350px;
-  min-width: 300px;
+  max-width: 250px;
+  min-width: 220px;
   background-size: cover;
   border-radius: 10px;
   margin-top: 20px;
@@ -14,7 +14,12 @@
   gap: 40px;
 }
 
-.about-row-inner {
-  /* display: flex; */
-  /* flex-direction: column; */
+@media (max-width: 768px) {
+  .home-about img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 120px;
+  }
 }
