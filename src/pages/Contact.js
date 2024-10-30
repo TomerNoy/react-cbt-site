@@ -13,12 +13,12 @@ const Contact = () => {
             <div
               className="list-tile"
               onClick={() =>
-                window.open("mailto:inbalshaul@gmail.com", "_blank")
+                window.open("https://wa.me/+972587018070", "_blank")
               }
             >
-              <i className="fa-solid fa-envelope contact-icon email-icon"></i>
-              <span className="contact-title">inbalshaul@gmail.com</span>
-              <span className="contact-trailing">אימייל</span>
+              <i className="fa-brands fa-whatsapp contact-icon whatsapp-icon"></i>
+              <span className="contact-title">Whatsapp</span>
+              <span className="contact-trailing">וואטסאפ</span>
             </div>
           </li>
           <li className="contact-item">
@@ -31,14 +31,17 @@ const Contact = () => {
               <span className="contact-trailing">טלפון</span>
             </div>
           </li>
+
           <li className="contact-item">
             <div
               className="list-tile"
-              onClick={() => window.open("https://wa.me/0987654321", "_blank")}
+              onClick={() =>
+                window.open("mailto:inbalshaul@gmail.com", "_blank")
+              }
             >
-              <i className="fa-brands fa-whatsapp contact-icon whatsapp-icon"></i>
-              <span className="contact-title">Whatsapp</span>
-              <span className="contact-trailing">וואטסאפ</span>
+              <i className="fa-solid fa-envelope contact-icon email-icon"></i>
+              <span className="contact-title">inbalshaul@gmail.com</span>
+              <span className="contact-trailing">אימייל</span>
             </div>
           </li>
         </ul>

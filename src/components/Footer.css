@@ -36,6 +36,13 @@
   font-size: 40px;
 }
 
+#whatsapp-icon {
+  color: white;
+  background-color: var(--whatsapp-icon);
+  border-radius: 5px;
+  padding: 2px;
+}
+
 @media (max-width: 1024px) {
   .whatsapp-icon {
     font-size: 35px;
