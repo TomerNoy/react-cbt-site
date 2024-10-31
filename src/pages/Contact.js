@@ -1,10 +1,18 @@
 import React from "react";
 import "./Contact.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import contactImage from "../assets/contact.avif";
+import contactImageAlt from "../assets/contact.jpg";
 
 const Contact = () => {
   return (
     <div className="contact-page">
+      <picture>
+        <source srcSet={contactImage} type="image/avif" />
+        <source srcSet={contactImageAlt} type="image/jpeg" />
+        <img src={contactImage} alt="Contact" className="contact-background" />
+      </picture>
+
       <div className="text-container">
         <h1 id="title">ניתן ליצור קשר בדרכים הבאות</h1>
 
