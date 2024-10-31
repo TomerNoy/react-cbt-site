@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
-import inbalImage from "../../assets/inbal2.avif";
-import inbalImageAlt from "../../assets/inbal.jpeg";
+import inbalImage from "../../assets/inbal.avif";
+import inbalImageAlt from "../../assets/inbal.jpg";
 import "./HomeAbout.css";
 
 const HomeAbout = () => {
