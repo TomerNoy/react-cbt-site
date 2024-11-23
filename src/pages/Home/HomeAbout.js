@@ -1,13 +1,13 @@
 import React from "react";
 import { Element } from "react-scroll";
 import inbalImage from "../../assets/inbal.avif";
-import inbalImageAlt from "../../assets/inbal.jpg";
+import inbalImageAlt from "../../assets/inbal.jpeg";
 import "./HomeAbout.css";
 
 const HomeAbout = () => {
   return (
     <Element name="about-section" className="section">
-      <div className="home-about">
+      <div className="home-about page-text">
         <h1>קצת עלי</h1>
         <div className="about-row">
           <picture>

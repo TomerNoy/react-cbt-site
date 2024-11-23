@@ -1,11 +1,12 @@
 import React from "react";
 import { Element } from "react-scroll";
 import "./HomeTreatment.css";
+import checkIcon from "../../assets/home_treatment_icon.png";
 
 const HomeTreatment = () => {
   return (
     <Element name="treatment-section" className="section">
-      <div className="home-treatments">
+      <div className="home-treatments page-text">
         <h1>תחומי טיפול במתבגרים ומבוגרים</h1>
         <p>
           בחיים ישנם רגעים של קושי, מצבים שבהם אנחנו מרגישים תקועים, אבודים או
@@ -29,107 +30,52 @@ const HomeTreatment = () => {
           ואת העולם סביבו בצורה בהירה ומיטיבה יותר.
         </p>
 
-        <p>להלן תחומי הטיפול שבהם אני עוסקת:
-        </p>
+        <p>להלן חלק מתחומי הטיפול בהם אני עוסקת:</p>
+
         <div className="treatment-list">
           <div className="treatment-column">
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               משברי חיים
             </p>
+
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               חרדה
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               דיכאון
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              משבר זהות
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               תחושת תקיעות
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              קשרים בינאישיים
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              אובדן ואבל
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              פוביות
+              <img src={checkIcon} alt="check" />
+              מערכות יחסים
             </p>
           </div>
           <div className="treatment-column">
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
+              פוביות
+            </p>
+            <p>
+              <img src={checkIcon} alt="check" />
               קשיים חברתיים
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               אגרנות
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              פרידת הורים וגירושין
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               אכילה רגשית
             </p>
             <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
+              <img src={checkIcon} alt="check" />
               קושי בויסות רגשי
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              קשיי התנהגות והסתגלות
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                ✔️
-              </span>{" "}
-              אילמות סלקטיבית
-            </p>
-            <p>
-              <span role="img" aria-label="check">
-                &nbsp;
-              </span>{" "}
-              ועוד
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ const HomeArticles = () => {
   }, []);
 
   return (
-    <Element name="articles-section" className="home-articles">
+    <Element name="articles-section" className="home-articles page-text">
       <h1>מאמרים</h1>
       <Slider {...settings}>
         {articlesData.map((article, index) => (
@@ -39,7 +39,7 @@ const HomeArticles = () => {
             <div className="image-container">
               <picture>
                 <source srcSet={article.image} type="image/avif" />
-                <source srcSet={article.imageAlt} type="image/webp" />
+                <source srcSet={article.imageAlt} type="image/png" />
                 <img
                   alt={article.title}
                   src={article.imageAlt}

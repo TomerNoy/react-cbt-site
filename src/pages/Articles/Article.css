@@ -1,0 +1,22 @@
+.floating-image {
+  float: left; /* Floats to the left on larger screens */
+  margin-right: 30px; /* Space between the image and text */
+  width: 300px; /* Fixed size for larger screens */
+  height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .floating-image {
+    float: none; /* Removes float for smaller screens */
+    display: block; /* Centers the image */
+    margin: 0 auto 20px; /* Centers horizontally and adds bottom spacing */
+    max-width: 200px; /* Reduce width for smaller screens */
+    width: 100%; /* Allow scaling down */
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-image {
+    max-width: 100px; /* Further reduce width for very small screens */
+  }
+}

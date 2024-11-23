@@ -8,11 +8,13 @@ import HomeArticles from "./HomeArticles";
 
 const Home = () => {
   return (
-    <div className="page">
+    <div>
       <HomeBanner />
-      <HomeAbout />
-      <HomeTreatment />
-      <HomeArticles />
+      <div className="page">
+        <HomeAbout />
+        <HomeTreatment />
+        <HomeArticles />
+      </div>
     </div>
   );
 };

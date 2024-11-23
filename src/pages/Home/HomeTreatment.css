@@ -1,12 +1,20 @@
 .home-treatments {
   display: flex;
   flex-direction: column;
+  background-color: var(--cardBackground);
 }
 
 .treatment-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.treatment-column img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 /* Mobile Styles */

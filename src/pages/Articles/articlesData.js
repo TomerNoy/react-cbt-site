@@ -1,8 +1,8 @@
-import eatingAlt from "../../assets/eating.webp";
-import ocdAlt from "../../assets/ocd.webp";
-import depressionAlt from "../../assets/depression.webp";
-import regulationAlt from "../../assets/regulation.webp";
-import anxietyAlt from "../../assets/anxiety.webp";
+import eatingAlt from "../../assets/eating.png";
+import ocdAlt from "../../assets/ocd.png";
+import depressionAlt from "../../assets/depression.png";
+import regulationAlt from "../../assets/regulation.png";
+import anxietyAlt from "../../assets/anxiety.png";
 
 import eating from "../../assets/eating.avif";
 import ocd from "../../assets/ocd.avif";
