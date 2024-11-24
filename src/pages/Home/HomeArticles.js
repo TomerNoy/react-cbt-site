@@ -15,6 +15,15 @@ const HomeArticles = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 8000,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   };
 
   // Preload images on page start
@@ -31,31 +40,33 @@ const HomeArticles = () => {
   }, []);
 
   return (
-    <Element name="articles-section" className="home-articles page-text">
+    <Element name="articles-section" className="home-articles ">
       <h1>מאמרים</h1>
       <Slider {...settings}>
         {articlesData.map((article, index) => (
-          <div key={index} className="article-slide">
-            <div className="image-container">
-              <picture>
-                <source srcSet={article.image} type="image/avif" />
-                <source srcSet={article.imageAlt} type="image/png" />
-                <img
-                  alt={article.title}
-                  src={article.imageAlt}
-                  className="image-content"
-                />
-              </picture>
-            </div>
-            <div className="column">
-              <h2 className="title">{article.title}</h2>
-              <p className="content">{article.description}</p>
-              <a
-                className="button"
-                onClick={() => (window.location.href = article.link)}
-              >
-                קרא עוד
-              </a>
+          <div className="card-container">
+            <div key={index} className="article-slide">
+              <div className="image-container">
+                <picture>
+                  <source srcSet={article.image} type="image/avif" />
+                  <source srcSet={article.imageAlt} type="image/png" />
+                  <img
+                    alt={article.title}
+                    src={article.imageAlt}
+                    className="image-content"
+                  />
+                </picture>
+              </div>
+              <div className="column">
+                <h2 className="title">{article.title}</h2>
+                <p className="content">{article.description}</p>
+                <a
+                  className="button"
+                  onClick={() => (window.location.href = article.link)}
+                >
+                  קרא עוד
+                </a>
+              </div>
             </div>
           </div>
         ))}

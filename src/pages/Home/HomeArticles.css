@@ -1,5 +1,11 @@
 @import url("../../App.css");
 
+.home-articles {
+  margin: auto;
+  width: 80%;
+  max-width: 1100px;
+  padding-bottom: 10px;
+}
 .slick-slider {
   margin-bottom: 40px;
 }
@@ -9,6 +15,10 @@
   display: flex !important;
   flex-direction: row;
   justify-content: center;
+}
+
+.card-container {
+  padding: 0 10px;
 }
 
 .article-slide {
@@ -27,6 +37,17 @@
   align-items: start;
   direction: rtl;
   padding: 16px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #fa9588 !important;
+  font-size: 30px !important;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  color: #ff6f61;
 }
 
 .image-container {
@@ -77,6 +98,13 @@
 @media (max-width: 768px) {
   .article-slide {
     flex-direction: column;
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
   }
 
   .slick-slide {
