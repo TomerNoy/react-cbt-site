@@ -49,7 +49,7 @@ const Contact = () => {
               className="list-tile"
               onClick={() => window.open("tel:+972587018070", "_blank")}
             >
-              <span className="contact-title">058-701-8070</span>
+              <span className="contact-title">058-7018070</span>
               <i className="fa-solid fa-phone contact-icon phone-icon"></i>
             </div>
           </li>
