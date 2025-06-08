@@ -57,13 +57,10 @@ body p {
   font-size: 1.2rem;
 }
 
-.sources {
-  direction: ltr;
-  text-align: left;
-}
-
 .sources p {
   font-size: 1rem;
+  direction: ltr;
+  text-align: left;
 }
 
 body h1,
